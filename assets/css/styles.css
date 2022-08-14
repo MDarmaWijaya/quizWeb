@@ -4,6 +4,18 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-size: 300%;
+  background-image: radial-gradient(circle farthest-corner at 92.3% 71.5%, rgba(83, 138, 214, 1) 0%, rgba(134, 231, 214, 1) 90%);
+  animation: animation-background 25s infinite alternate;
+}
+
+@keyframes animation-background {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 .container {
   background-color: rgba(0, 255, 255, 0.589);

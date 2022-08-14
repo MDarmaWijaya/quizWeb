@@ -9,8 +9,13 @@ const score = document.getElementById('score');
 const card = document.getElementById('card');
 const showScore = document.getElementById('showscore');
 const expression = document.getElementById('expression');
+const date = document.getElementById('date');
 
 let shuffledQuestions, currentQuestionIndex, i;
+
+// membuat tanggal
+// const nowTime = new Date();
+// date.innerHTML = nowTime;
 
 startGames.addEventListener('click', startGame);
 // restartButton.addEventListener('click', startGame);
