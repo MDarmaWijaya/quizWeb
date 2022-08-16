@@ -18,7 +18,9 @@ body {
   }
 }
 .container {
-  background-color: rgba(0, 255, 255, 0.589);
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   margin-top: 200px;
 }
 
